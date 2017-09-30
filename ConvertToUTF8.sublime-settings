@@ -1,6 +1,7 @@
 {
 	// supported encoding list, name & code in pair
 	"encoding_list" : [
+		["UTF-8", "UTF-8"],
 		["Chinese Simplified (GBK)", "GBK"],
 		["Chinese Simplified (GB2312)", "GB2312"],
 		["Chinese Simplified (GB18030)", "GB18030"],
@@ -9,7 +10,6 @@
 		["Japanese (CP932)", "CP932"],
 		["Japanese (Shift_JIS)", "Shift_JIS"],
 		["Japanese (EUC-JP)", "EUC-JP"],
-		["UTF-8", "UTF-8"]
 	],
 
 	// Maximum size for encoding cache, 0 means no cache
@@ -34,7 +34,7 @@
 	"convert_on_find": false,
 
 	// Convert when loading/saving a file
-	"convert_on_load" : true,
-	"convert_on_save" : true
+	"convert_on_load" : false,
+	"convert_on_save" : false
 
 }
