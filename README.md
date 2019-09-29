@@ -14,15 +14,28 @@ Note
 
 ** Linux (Sublime Text 2 & 3) and OSX (Sublime Text 3): You will need to install an extra plugin to make ConvertToUTF8 work properly: [Codecs26](https://github.com/seanliang/Codecs26) for Sublime Text 2 or [Codecs33](https://github.com/seanliang/Codecs33) for Sublime Text 3.
 
-Installation
-------------------
-Using [Package Control](https://packagecontrol.io/installation) to find, install and upgrade *ConvertToUTF8* is the recommended method to install this plug-in.
 
-Otherwise, you can download this repository as a zip file, unzip it, and rename the new folder to *ConvertToUTF8*, then move this folder to *Packages* folder of Sublime Text (You can find the *Packages* folder by clicking "Preferences > Browse Packages" menu entry in Sublime Text).
+## Installation
 
-Your folder hierarchy should look like this:
+### By Package Control
 
-![Folder Hierarchy](https://seanliang.github.io/donate/hierarchy.png)
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `ConvertToUTF8` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 Configuration
 ------------------
